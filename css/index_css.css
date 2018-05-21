@@ -1,0 +1,413 @@
+body{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+
+header{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 220px;
+	width: 100%;
+}
+
+	.headright{
+		float: left;
+		height: 100%;
+		width: 28%;
+		align-content: center;
+	}
+
+		.imagen{
+			float: left;
+			margin-top: 25px;
+			padding-top: 25px;
+			padding-left: 80px;
+		}
+
+	.headcenter{
+		float: left;
+		width: 35%;
+		text-align: center;
+		padding: 15px;
+		padding-bottom: 0;
+		border: 1px;
+		padding-top: 30px;
+	}
+
+		#titulo{
+			margin-top: 5px;
+			font-family: arial;
+		}
+
+		#titulo2{
+			margin-bottom: 30px;
+		}
+
+		#buscador{
+				float: left;
+				height: 35px;
+				border-radius: 3px;
+				width: 500px;
+				padding-left: 20px;
+				margin-left: 50px;
+			}
+
+			#boton_busca{
+				float: left;
+				border: 1px;
+				background-color: white;
+				height: 35px;
+				width: 80px;
+				margin-left: -6px;
+				border-radius: 3px;
+				margin-top: 0;
+			}	
+
+	.headleft{
+		float: right;
+		margin: 15px;
+		margin-bottom: 0;
+		margin-top:0px;
+		height: 120px;
+		width: 30%;
+		padding-top: 30px;
+	}
+
+		.headleft a{
+			float: right;
+			margin-top: 50px;
+			margin-right: 60px;
+			width: 160px;
+			height: 50px;
+			font-size: 25px;
+			text-align: center;
+			padding-top: 10px;
+			text-decoration: none;
+			color: black;
+			border: 1px;
+			border-radius: 10px;
+			border-style: solid;
+		}
+
+			#login{
+				background-color: #F6CA6D;
+			}
+
+			#register{
+				background-color:#F6CA6D;
+			}
+
+nav{
+	height: 75px;
+	background-color: #ABA7A7;
+	margin-left: 0;
+	padding-top: 10px;
+	padding-left: 25%;
+	position: sticky;
+	width: 75%;
+	top: 0;
+	z-index: 1;
+	opacity: 0.9;
+}
+
+
+	nav a {
+	    float: left;
+	    font-size: 25px;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+
+
+	nav a img, nav button img{
+		width: 15px;
+	}
+
+	.dropdown {
+	    float: left;
+	    overflow: hidden;
+	    opacity: 1;
+	}
+
+	.dropdown .dropbtn {
+	   	font-size: 25px;    
+	    border: none;
+	    outline: none;
+	    color: white;
+	    padding: 14px 16px;
+	    background-color: inherit;
+	    font-family: inherit;
+	    margin: 0;
+	    opacity: 1;
+	}
+
+	nav a:hover, .dropdown:hover .dropbtn {
+   		 background-color: #625D5D;
+	}
+
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    z-index: 2;
+	    opacity: 1;
+	}
+
+	.dropdown-content2 {
+	    display: none;
+	    position: absolute;
+	    top: 0;
+	    left: 100%;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    z-index: 3;
+	    opacity: 1;
+	}
+
+	.dropdown-content a {
+	    float: none;
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	    text-align: left;
+	    opacity: 1;
+	}
+
+	.dropdown-content a:hover {
+	    background-color: #ddd;
+	    opacity: 1;
+	}
+
+	.dropdown:hover .dropdown-content {
+	    display: block;
+	    opacity: 1;
+	    animation: prueba 1.2s;
+	}
+
+	.dropdown-content2 a {
+	    float: none;
+	   	background-color: #000000;
+	    color: white;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	    text-align: left;
+	    opacity: 1;
+	}
+
+	.dropdown-content2 a:hover {
+	    background-color: #ddd;
+	    opacity: 1;
+	}
+
+	.dropdown-content:hover .progra:hover .dropdown-content2 {
+		display: block;
+		position: absolute;
+	    opacity: 1;
+	    animation: prueba 1.2s;
+	}
+
+	.dropdown-content:hover .sist:hover .dropdown-content2 {
+		display: block;
+		position: absolute;
+	    opacity: 1;
+	    animation: prueba 1.2s;
+	}
+
+	.dropdown-content:hover .bbdd:hover .dropdown-content2 {
+		display: block;
+		position: absolute;
+	    opacity: 1;
+	    animation: prueba 1.2s;
+	}
+
+	.dropdown-content:hover .marcas:hover .dropdown-content2 {
+		display: block;
+		position: absolute;
+	    opacity: 1;
+	    animation: prueba 1.2s;
+	}
+
+
+	@keyframes prueba{
+		0%{
+			opacity: 0;
+		}
+		100%{
+			opacity: 1; 
+		}
+	}
+
+	#centro{
+		width: 100%;
+		height: 500px;
+		margin-right: 0;
+	}
+
+section{
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+	min-width: 70%;
+}
+
+
+	table{
+		position: relative;
+		padding: 50px;
+		padding-top: 30px;
+		border-collapse: separate;
+	    border-spacing: 20px;
+	    width: 100%;
+	}
+
+		th{
+			position: relative;
+			background-image: url(../imagenes/matrix.jpg);
+			width: 200px;
+			max-width: 250px;
+			min-width: 100px;
+			height: 150px;
+		}
+
+		tr+tr{
+			border-top: 20px;
+		}
+
+		.asignatura{
+			text-align: left;
+			font-size: 25px;
+			height: 30px;
+			background-color: #FCFFA2;
+			padding-left: 10px;
+			background-image: none;
+		}
+
+		#contenedor{
+			max-width: 250px;
+			width: 200px;
+			max-height: 150px;
+			margin: 0;
+			align-content: center;
+		}
+
+			th>a>img{
+				width: 220px;
+				height: 150px;
+				min-width: 100px;
+			}
+
+			th>p{
+				margin: 0;
+				margin-bottom: 15px;
+				z-index: 1;
+				text-decoration: none;
+				color: white;
+			}
+
+			th>a:{
+				color: white;
+				text-decoration: none;
+			}
+
+			th>a:visited{
+				color: white;
+				text-decoration: none;
+			}
+
+footer{
+	height: 400px;
+	width: 100%;
+	background-color: #BFBFC3;
+}
+
+	footer ul{
+		list-style-type: none;
+		padding: 0;
+		margin-top: 0;
+	}
+
+	#datos li+li{
+		margin-top: 10px;
+	}
+
+	#links li{
+		float: left;
+	}
+
+	#links li+li{
+		margin-left: 15px;
+	}
+
+	#enlaces img{
+		height: 40px;
+	}
+
+	#face{
+		width: 50px;
+		height: 50px;
+	}
+
+	footer h4{
+		margin-top: 0;
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+
+	#datos{
+		float: left;
+		padding-top: 20px;
+		margin-left: 150px;
+		margin-right: 20px;
+	}
+
+	#enlaces{
+		padding-top: 20px;
+		width: 200px;
+		margin-left: 40%;
+	}
+
+	#mapa{
+		padding-top: 20px;
+		float: right;
+		margin-right: 20px;
+		font-size: 25px;
+	}
+
+	#mapa a{
+		color: black;
+		text-decoration: none;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	#mapa a:visited{
+		color: black;
+		text-decoration: none;
+	}
+
+	#map{
+		margin-top: 20px;
+		width: 500px;
+		height: 300px;
+	}
+
+	#copyright{
+		float:left;
+		font-size: 10px;
+		color: #413E3E;
+		margin-top: 200px;
+		margin-bottom: 0;
+	}
+
+img {
+	margin: 0;
+	margin-right: 10px;
+}

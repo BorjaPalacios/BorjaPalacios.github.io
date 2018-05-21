@@ -1,0 +1,56 @@
+body{
+	font-family: arial;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+h2{
+	text-align: center;
+}
+
+h4{
+	margin-left: 15px;
+	font-size: 20px;
+}
+
+p{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify;
+}
+
+ul{
+	width: 200px;
+}
+
+li{
+	width: 200px;
+}
+
+li+li{
+	margin-top: 10px;
+}
+
+button{
+	border: 0;
+	background-color: yellow;
+	border-radius: 45px;
+}
+
+#video{
+	float: right;
+	margin-top: -190px;
+	margin-right: 120px;
+}
+
+.imasig{
+	width: 95%;
+	height: 150px;
+	position: absolute;
+	bottom: 30px;
+	margin: 0;
+}

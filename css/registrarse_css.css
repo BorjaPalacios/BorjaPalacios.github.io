@@ -1,0 +1,30 @@
+section{
+	background-color: #FCF8BD;
+}
+
+
+form{
+	font-size: 20px;
+	line-height: 2;
+	text-align: center;
+}
+
+#submit{
+	height: 40px;
+	width: 100px;
+	margin-bottom: 15px;
+}
+
+section input{
+	width: 200px;
+}
+
+.radio{
+	font-size: 18px;
+	margin-right: 15px;
+}
+
+.r{
+	width: 50px;
+}
+

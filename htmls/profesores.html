@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Profesores</title>
+	<link rel="stylesheet" type="text/css" href="../css/index_css.css">
+	<link rel="stylesheet" type="text/css" href="../css/iframe_css.css">
+</head>
+<body>
+	<header>
+		<div class="headright">
+			<a href="../index.html"><img class="imagen" src="../imagenes/logo.png" alt="logo" width="150" height="100"></a>
+		</div>	
+		<div class="headcenter">
+			<h1 id="titulo">IES Maria de Zayas y Sotomayor</h1>
+			<h3 id="titulo2">Desarrollo de aplicaciones WEB</h3>
+			<input type="search" id="buscador" name="buscar" placeholder="Busqueda">
+			<button id="boton_busca"><img src="../imagenes/lupa.png" alt="" height="30"></button>
+		</div>
+		</div>
+		<div class="headleft">
+			<a id="login" href="inprogress.html">Login</a>
+			<a id="register" href="registrarse.html">Registrarse</a>	
+	</header>
+	<nav>
+		<div class="dropdown">
+		    <button class="dropbtn"><img src="../imagenes/nav/menu.png" alt="">Asignaturas</button>
+			    <div class="dropdown-content" id="asigs">
+		    	  	<div class="progra">
+			    	  	<a href="asignaturas.html" id="0">Programacion</a>
+			    	  	 	<div class="dropdown-content2" id="cursos">
+				    	  		<a href="cursos.html" id="0">Codigo</a>
+				    	  		<a href="cursos.html" id="1">Condicional</a>
+				    	  		<a href="cursos.html" id="2">Bucles</a>
+				    	  		<a href="cursos.html" id="3">Datos complejos</a>
+			    	  		</div>
+		    	 	</div>
+			      	<div class="sist">
+			    	  	<a href="asignaturas.html" id="1">Sistemas operativos</a>
+			    	  	 	<div class="dropdown-content2" id="cursos1">
+				    	  		<a href="cursos.html" id="4">Yasp</a>
+				    	  		<a href="cursos.html" id="5">Comandos linux</a>
+				    	  		<a href="cursos.html" id="6">Programacion linux</a>
+				    	  		<a href="cursos.html" id="7">Cifrado</a>
+			    	  		</div>
+		    	  	</div>
+		      		<div class="bbdd">
+			    	  	<a href="asignaturas.html" id="2">Base de datos</a>
+			    	  	 	<div class="dropdown-content2" id="cursos2">
+				    	  		<a href="cursos.html" id="8">Selects</a>
+				    	  		<a href="cursos.html" id="9">Subselects</a>
+				    	  		<a href="cursos.html" id="10">Comandos DML</a>
+				    	  		<a href="cursos.html" id="11">Pl Sql</a>
+			    	  		</div>
+		    	 	</div>
+		      		<div class="marcas">
+			    	  	<a href="asignaturas.html" id="3">Lenguaje de marcas</a>
+			    	  	 	<div class="dropdown-content2" id="cursos3">
+				    	  		<a href="cursos.html" id="12">Html</a>
+				    	  		<a href="cursos.html" id="13">Css</a>
+				    	  		<a href="cursos.html" id="14">Xml</a>
+				    	  		<a href="cursos.html" id="15">Javascript</a>
+			    	  		</div>
+		    	 	</div>
+			      <a href="htmls/asignaturas.html" id="4">Formacion y orientacion laboral</a>
+			      <a href="htmls/asignaturas.html" id="5">Entornos de desarrolo</a>
+			    </div>
+ 		</div> 
+		<a href="inprogress.html"><img src="../imagenes/nav/casita.png" alt="centro">Centro</a>
+		<div class="dropdown">
+		    <button class="dropbtn"><img src="../imagenes/nav/profesor.jpg" alt="">Profesores</button>
+			    <div class="dropdown-content" id="profes">
+		    	  <a href="" id="0">Virginia</a>
+			      <a href="" id="1">Javier</a>
+			      <a href="" id="2">Alejandro</a>
+			      <a href="" id="3">Sonia</a>
+			      <a href="" id="4">Antonia</a>
+			      <a href="" id="5">Azucena</a>
+			    </div>
+ 		</div> 
+		<a href="inprogress.html"><img src="../imagenes/nav/interrogacion.png" alt="">¿Quienes somos?</a>
+	</nav>
+	<section>
+		<iframe id="iframe" src="../data/profesores_xml.xml" frameborder="0" name="iframe" scrolling="none"></iframe>
+	</section>
+	<footer>
+		<div id="datos">
+			<h4>Datos de contacto:</h4>
+			<ul>
+				<li>Direccion: C/ Romero nº 2 28220 Majadahonda, Madrid </li>
+				<li>Correo: ies.mariadezayas.majadahonda@educa.madrid.org</li>
+				<li>Telefono: Tf: 916 396 611 </li>
+			</ul>
+		</div>
+			<ul id="mapa">	
+				<li><a href="https://www.google.es/maps/place/Instituto+de+Formaci%C3%B3n+Profesional+Mar%C3%ADa+de+Zayas+y+Sotomayor/@40.4766852,-3.8598007,17z/data=!3m1!4b1!4m5!3m4!1s0xd41846582414961:0xb7de74e24489f270!8m2!3d40.4766852!4d-3.857612" target="_blanck">Como llegar</a></li>
+				<li><div id="map" ></div></li>
+			</ul>
+		<div id="enlaces">
+			<h4>Localizanos en:</h4>
+			<ul id="links">
+				<li><a href="https://twitter.com/zayasturismo" target="_blanck"><img src="../imagenes/footer/twitter.png" alt="Twitter"></a></li>
+				<li><a href="https://www.facebook.com/pages/IES-Maria-de-Zayas-y-Sotomayor" target="_blanck"><img src="../imagenes/footer/facebook.png" alt="Facebook"></a></li>
+				<li><a href="https://www.instagram.com/explore/locations/60304405/ies-maria-de-zayas-y-sotomayor/" target="_blanck"><img src="../imagenes/footer/instagram.png" alt="Instagram"></a></li>
+			</ul>
+		</div>
+		<div id="copyright">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ad eum obcaecati quidem modi, labore dolorem est, accusamus provident, magnam ratione tempora ipsa deleniti, at cum. Harum eos optio ut explicabo earum iure blanditiis ad.</p>
+		</div>
+	</footer>
+		<script>
+		function myMap() {
+		    var mapOptions = {
+		        center: new google.maps.LatLng(40.476691, -3.857533),
+		        zoom: 16,
+		        panControl: true,
+    			zoomControl: true,
+		        mapTypeId: google.maps.MapTypeId.HYBRID
+		    }
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		}
+
+
+		document.addEventListener("onload",profe());
+		function profe(){
+			let a = document.getElementById("profes");
+			let l = a.getElementsByTagName("a");
+			for(i = 0; i<l.length; i++){
+				l[i].addEventListener("click",function(){
+					window.sessionStorage.setItem("profesor",this.id);
+				});
+			}
+		}
+
+		document.addEventListener("onload",asig());
+		function asig(){
+			let b = document.getElementById("asigs");
+			let k = b.getElementsByTagName("a");
+			for(g = 0; g<k.length; g++){
+				k[g].addEventListener("click",function(){
+					window.sessionStorage.setItem("asignaturas",this.id);
+				});
+			}
+		}
+
+		document.addEventListener("onload",curs());
+		function curs(){
+			let c = document.getElementById("cursos");
+			let c1 = document.getElementById("cursos1");
+			let c2 = document.getElementById("cursos2");
+			let c3 = document.getElementById("cursos3");
+			let n = c.getElementsByTagName("a");
+			let n1 = c1.getElementsByTagName("a");
+			let n2 = c2.getElementsByTagName("a");
+			let n3 = c3.getElementsByTagName("a");
+			for(r = 0; r<n.length; r++){
+				n[r].addEventListener("click",function(){
+					window.sessionStorage.setItem("curso",this.id);
+				});
+				n1[r].addEventListener("click",function(){
+					window.sessionStorage.setItem("curso",this.id);
+				});
+				n2[r].addEventListener("click",function(){
+					window.sessionStorage.setItem("curso",this.id);
+				});
+				n3[r].addEventListener("click",function(){
+					window.sessionStorage.setItem("curso",this.id);
+				});
+			}
+		}
+
+		var ifr = document.getElementById("iframe");
+		ifr.onload = function(){
+			var cont = ifr.contentDocument;
+   		 	for(j = 0; j<6; j++){
+   		 		if(j == parseInt(window.sessionStorage.getItem("profesor"))) continue;
+   		 		 cont.getElementsByTagName("div")[j].style.display="none";
+   		 	}
+		}
+
+
+		
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvPfNiM_qXVPRKSi6ornW3vduE0XfUe4I&callback=myMap"></script>
+</body>
+</html>
